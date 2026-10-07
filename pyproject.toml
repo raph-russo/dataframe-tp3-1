@@ -7,10 +7,13 @@ authors = [
     { name = "r-russo-ece", email = "raphael.russo@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.41.0",
+]
 
 [project.scripts]
-dataframe-tp3-1 = "dataframe_tp3_1:main"
+dataset-users = "dataframe_tp3_1.dataset_users:main"
+dataset-orders = "dataframe_tp3_1.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
