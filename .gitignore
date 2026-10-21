@@ -15,3 +15,10 @@ orders.csv
 .venv/
 __pycache__/
 .env
+users.csv
+orders.csv
+*.parquet
+warehouse/**/data/
+.venv/
+__pycache__/
+.env
