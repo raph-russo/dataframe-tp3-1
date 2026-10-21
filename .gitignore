@@ -10,3 +10,8 @@ target/
 dbt_packages/
 logs/
 *.duckdb
+users.csv
+orders.csv
+.venv/
+__pycache__/
+.env
